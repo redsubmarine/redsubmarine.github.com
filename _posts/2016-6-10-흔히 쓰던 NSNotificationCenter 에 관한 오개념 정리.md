@@ -41,7 +41,7 @@ addObserverForName:object:queue:usingBlock: 매서드의 정의를 따라가보�
 
 그렇다. 이 객체가 observer로서 등록이 된것이고, 이 객체를 해제해야 정상적으로 동작을 한다.
 
-	var observers = [NSObjectProtocol]()()
+	var observers = [NSObjectProtocol]()
 	​
 	override func viewDidLoad() {
 		super.viewDidLoad()
